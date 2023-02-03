@@ -1,0 +1,6 @@
+first_name = input("Hello! Thank you for contacting customer service, may i get your first name please? ex. Frank   ")
+print("Thanks again, " + first_name + ", I need you to answer a few questions for me before we begin.")
+gender = input("Are you male, female, or something else [write out]? ")
+print("Okay, " + first_name + ", you identify as a " + gender)
+a2 = input("Next question. How long have you been using our services? ex. 5 seconds/minutes/hours/days/months/years   ")
+a3 = ("After " + a2 + "of using our services, how satisfied would you say you are with us, " + first_name + "? ")
